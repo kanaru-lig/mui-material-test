@@ -6,23 +6,14 @@ import { useState, type ReactNode } from "react";
 import createCache, { type Options } from "@emotion/cache";
 import { useServerInsertedHTML } from "next/navigation";
 import { CacheProvider, ThemeProvider } from "@emotion/react";
-import { purple } from "@mui/material/colors";
+import { blue } from "@mui/material/colors";
 import { createTheme } from "@mui/material";
 
 const theme = createTheme({
   palette: {
     primary: {
       main: "#0017C1",
-      50: "#E8F1FE",
-      100: "#D9E6FF",
-      200: "#C5D7FB",
-      300: "#9DB7F9",
-      400: "#7096F8",
-      500: "#4979F5",
-      600: "#3460FB",
-      700: "#264AF4",
-      800: "#0031D8",
-      900: "#0017C1",
+      ...blue,
     },
   },
 });
