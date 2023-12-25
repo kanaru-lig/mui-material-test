@@ -23,7 +23,6 @@ const theme = createTheme({
       800: "#0031D8",
       900: "#0017C1",
     },
-    secondary: purple,
   },
 });
 
