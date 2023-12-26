@@ -15,6 +15,9 @@ export function ButtonExample() {
         <MuiButton variant="text" color="primary">
           ログイン
         </MuiButton>
+        <MuiButton disabled color="primary">
+          ログイン
+        </MuiButton>
       </div>
       <h3>カスタマイズ済み</h3>
       <div className="space-x-4">
@@ -25,6 +28,9 @@ export function ButtonExample() {
           ログイン
         </Button>
         <Button variant="text" color="primary">
+          ログイン
+        </Button>
+        <Button disabled color="primary">
           ログイン
         </Button>
       </div>
