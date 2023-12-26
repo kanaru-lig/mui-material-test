@@ -18,7 +18,7 @@ const styles = {
   contained: {
     "&:hover": { boxShadow: "none", backgroundColor: "primary.A100" },
     "&:active": { backgroundColor: "primary.A200" },
-    "&:focus": {
+    "&:focus-visible": {
       boxShadow: "none",
       outline: 2,
       outlineColor: "#B78F00",
@@ -28,7 +28,7 @@ const styles = {
   outlined: {
     "&:hover": { boxShadow: "none", backgroundColor: "primary.200" },
     "&:active": { backgroundColor: "primary.300" },
-    "&:focus": {
+    "&:focus-visible": {
       outline: 2,
       outlineColor: "#B78F00",
       outlineOffset: 1,
@@ -37,7 +37,7 @@ const styles = {
   text: {
     "&:hover": { boxShadow: "none", backgroundColor: "primary.200" },
     "&:active": { backgroundColor: "primary.300" },
-    "&:focus": {
+    "&:focus-visible": {
       outline: 2,
       outlineColor: "#B78F00",
       outlineOffset: 1,
