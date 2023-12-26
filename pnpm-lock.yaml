@@ -31,6 +31,9 @@ dependencies:
     version: 18.2.0(react@18.2.0)
 
 devDependencies:
+  '@digital-go-jp/design-tokens':
+    specifier: ^0.1.3
+    version: 0.1.3
   '@types/node':
     specifier: ^20
     version: 20.10.5
@@ -119,6 +122,11 @@ packages:
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
     dev: false
+
+  /@digital-go-jp/design-tokens@0.1.3:
+    resolution: {integrity: sha512-GNZEyY84vEn4vqeRnggWxqX4hAc+ejIes2Ul3io5il4K690LZVENn40Sq3SZgf1Z+g/mgYlAMM+JGglcdxfuPQ==}
+    engines: {node: '>=18'}
+    dev: true
 
   /@emotion/babel-plugin@11.11.0:
     resolution: {integrity: sha512-m4HEDZleaaCH+XgDDsPF15Ht6wTLsgDTeR3WYj9Q/k76JtWhrJjcP4+/XlG8LGT/Rol9qUfOIztXeA84ATpqPQ==}
