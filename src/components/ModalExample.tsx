@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import Modal from "@mui/material/Modal";
 import { Button } from "./ui/Button";
+import { Modal } from "./ui/Modal";
 
 export function ModalExample() {
   const [open, setOpen] = useState(false);
@@ -19,15 +19,21 @@ export function ModalExample() {
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
-        sx={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          p: 2,
-        }}
       >
-        <div className="bg-white p-4 flex-1 max-w-96 rounded-md h-fit">
-          <p className="">aaa</p>
+        <div>
+          <p className="py-4">aaa</p>
+          <div className="space-y-2">
+            <Button
+              onClick={handleClose}
+              variant="contained"
+              sx={{ width: "100%" }}
+            >
+              OK
+            </Button>
+            <Button onClick={handleClose} variant="text" sx={{ width: "100%" }}>
+              キャンセル
+            </Button>
+          </div>
         </div>
       </Modal>
     </div>
