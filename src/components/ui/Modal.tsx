@@ -13,7 +13,7 @@ export function Modal(props: ModalProps) {
       }}
       {...props}
     >
-      <div className="bg-white p-4 flex-1 max-w-96 rounded-md h-fit">
+      <div className="bg-white p-4 flex-1 max-w-lg rounded-md h-fit md:py-10 md:px-14">
         {props.children}
       </div>
     </MuiModal>
